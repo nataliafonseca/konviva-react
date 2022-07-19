@@ -30,7 +30,7 @@ function BlogPage() {
 
   return (
     <>
-      <Form onSubmit={createPost} />
+      <Form createPost={createPost} />
 
       <div className="listaPostagens">
         {listaDePostagens.map((item, i) => (

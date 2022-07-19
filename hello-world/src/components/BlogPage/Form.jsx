@@ -1,13 +1,13 @@
 import { useState } from "react";
 
-function Form({ onSubmitCallback }) {
+function Form({ createPost }) {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
   const [imageUrl, setImageUrl] = useState("");
 
   function onSubmit(event) {
     event.preventDefault();
-    onSubmitCallback({ title, imageUrl, content });
+    createPost({ title, imageUrl, content });
   }
 
   return (
