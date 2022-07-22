@@ -12,6 +12,7 @@ export function listaTarefasContextBuilder([
       setListaDeTarefas(adicionar(listaDeTarefas, tarefa)),
     atualizarStatus: (tarefa) =>
       setListaDeTarefas(editar(listaDeTarefas, tarefa)),
+    limparListaDeTarefas: () => setListaDeTarefas([]),
   };
 }
 
