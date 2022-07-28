@@ -1,22 +1,13 @@
 import "./App.scss";
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-
-import { ChatPage } from "./pages/ChatPage";
-import { HomePage } from "./pages/HomePage";
-import { SidebarPageTemplate } from "./pageTemplates/SidebarPageTemplate";
+import { MainContainer } from "./components/MainContainer/MainContainer";
+import { ContatosProvider } from "./hooks/useContatos";
 
 function App() {
   return (
-    <BrowserRouter>
-      <SidebarPageTemplate>
-        <Routes>
-          <Route path="*" element={<HomePage />} />
-          <Route path="/" element={<HomePage />} />
-          <Route path="/chat" element={<ChatPage />} />
-        </Routes>
-      </SidebarPageTemplate>
-    </BrowserRouter>
+    <ContatosProvider>
+      <MainContainer />
+    </ContatosProvider>
   );
 }
 

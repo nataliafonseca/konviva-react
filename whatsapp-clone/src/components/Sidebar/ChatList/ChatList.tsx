@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+import { useContatos } from "../../../hooks/useContatos";
 import { getAll } from "../../../services/chatApiService";
 import { ChatItem } from "../ChatItem";
 import style from "./ChatList.module.scss";
@@ -21,31 +22,15 @@ interface Contato {
 }
 
 export function ChatList() {
-  const [contatos, setContatos] = useState([] as Contato[]);
-  const [carregando, setCarregando] = useState(true);
-
-  async function fetchContatos() {
-    const contatos = await getAll();
-    setContatos(contatos);
-
-    setCarregando(false);
-  }
-
-  useEffect(() => {
-    fetchContatos();
-  }, []);
+  const { contatos } = useContatos();
 
   return (
     <div className={style.chatList}>
-      {carregando ? (
-        <p>Carregando</p>
-      ) : (
-        <>
-          {contatos.map((contato, index) => (
-            <ChatItem key={index} contato={contato} />
-          ))}
-        </>
-      )}
+      <>
+        {contatos.map((contato, index) => (
+          <ChatItem key={index} contato={contato} />
+        ))}
+      </>
     </div>
   );
 }
