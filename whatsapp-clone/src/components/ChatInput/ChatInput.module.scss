@@ -1,0 +1,28 @@
+.input {
+  background: #f0f2f5;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  align-items: center;
+
+  input {
+    background: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  svg {
+    cursor: pointer;
+  }
+}

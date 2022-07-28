@@ -1,0 +1,42 @@
+.header {
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f0f2f5;
+  border-bottom: 1px solid #eaedef;
+
+  img {
+    height: 2.5rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+}
+
+.headerIcons {
+  display: flex;
+  gap: 1rem;
+
+  svg {
+    cursor: pointer;
+  }
+}
+
+.headerInfo {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+.headerTitle {
+  font-weight: normal;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.headerSubtitle {
+  font-weight: normal;
+  color: #667781;
+  font-size: 0.8125rem;
+}

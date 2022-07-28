@@ -1,0 +1,23 @@
+.header {
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f0f2f5;
+  border-bottom: 1px solid #eaedef;
+
+  img {
+    height: 2.5rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+}
+
+.headerIcons {
+  display: flex;
+  gap: 1rem;
+
+  svg {
+    cursor: pointer;
+  }
+}

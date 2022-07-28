@@ -47,6 +47,14 @@
       "price": "",
       "type": "Aluguel",
       "id": 7
+    },
+    {
+      "address": "dfklshj",
+      "image": "adfgjskhfkgjh",
+      "owner": "dfghjfgjk",
+      "price": 23233,
+      "type": "Venda",
+      "id": 8
     }
   ]
 }
