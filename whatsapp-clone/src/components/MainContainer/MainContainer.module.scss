@@ -1,0 +1,21 @@
+.mainContainer {
+  background: #e0d9d6;
+  margin-inline: auto;
+  height: 96vh;
+  max-width: 1600px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+@media (max-width: 1400px) {
+  .mainContainer {
+    height: 100vh;
+    overflow-x: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

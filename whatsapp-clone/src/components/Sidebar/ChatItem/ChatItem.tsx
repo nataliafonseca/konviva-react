@@ -1,5 +1,4 @@
 import VolumeOffIcon from "@mui/icons-material/VolumeOff";
-import { Link, useSearchParams } from "react-router-dom";
 
 import { useContatos } from "../../../hooks/useContatos";
 import style from "./ChatItem.module.scss";
