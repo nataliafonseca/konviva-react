@@ -1,7 +1,7 @@
-import { ChatBody } from "./ChatBody";
-import { ChatHeader } from "./ChatHeader";
-import { ChatInput } from "./ChatInput";
-import style from "./ChatView.module.scss";
+import { ChatBody } from './ChatBody';
+import { ChatHeader } from './ChatHeader';
+import { ChatInput } from './ChatInput';
+import style from './ChatView.module.scss';
 
 interface Mensagem {
   id: number;

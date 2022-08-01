@@ -1,2 +1,2 @@
-import ListaTarefasPage from "./ListaTarefasPage";
+import ListaTarefasPage from './ListaTarefasPage';
 export default ListaTarefasPage;

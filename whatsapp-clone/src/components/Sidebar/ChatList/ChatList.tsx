@@ -1,6 +1,6 @@
-import { useContatos } from "../../../hooks/useContatos";
-import { ChatItem } from "../ChatItem";
-import style from "./ChatList.module.scss";
+import { useContatos } from '../../../hooks/useContatos';
+import { ChatItem } from '../ChatItem';
+import style from './ChatList.module.scss';
 
 export function ChatList() {
   const { contatos } = useContatos();

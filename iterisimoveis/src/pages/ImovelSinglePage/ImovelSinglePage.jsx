@@ -1,10 +1,10 @@
-import "./ImovelSinglePage.css";
+import './ImovelSinglePage.css';
 
-import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useEffect, useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
 
-import { ImovelCard } from "../../components/ImovelCard";
-import { getImovelPorId } from "../../services/imovelApiService";
+import { ImovelCard } from '../../components/ImovelCard';
+import { getImovelPorId } from '../../services/imovelApiService';
 
 export function ImovelSinglePage() {
   const { id } = useParams();

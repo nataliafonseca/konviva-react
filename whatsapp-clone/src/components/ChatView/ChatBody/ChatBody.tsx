@@ -1,4 +1,4 @@
-import style from "./ChatBody.module.scss";
+import style from './ChatBody.module.scss';
 
 interface Mensagem {
   id: number;
@@ -36,9 +36,9 @@ export function ChatBody({ contato }: ChatBodyProps) {
             <p>{mensagem.conteudo}</p>
           </div>
           <time>
-            {new Date(mensagem.datahora).toLocaleTimeString("pt-br", {
-              hour: "2-digit",
-              minute: "2-digit",
+            {new Date(mensagem.datahora).toLocaleTimeString('pt-br', {
+              hour: '2-digit',
+              minute: '2-digit',
             })}
           </time>
         </div>

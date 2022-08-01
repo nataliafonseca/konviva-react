@@ -4,9 +4,9 @@ import {
   useContext,
   useEffect,
   useState,
-} from "react";
+} from 'react';
 
-import { getAll } from "../services/chatApiService";
+import { getAll } from '../services/chatApiService';
 
 interface Mensagem {
   id: number;

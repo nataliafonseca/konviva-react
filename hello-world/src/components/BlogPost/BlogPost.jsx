@@ -1,8 +1,8 @@
-import "./BlogPost.css";
+import './BlogPost.css';
 
-import { useState } from "react";
+import { useState } from 'react';
 
-import Counter from "./Counter";
+import Counter from './Counter';
 
 /**
  * BlogPost Component
@@ -12,7 +12,7 @@ import Counter from "./Counter";
 function BlogPost(props) {
   const [post, setPost] = useState(props.post);
 
-  function checkboxChangeBack(event) {
+  function checkboxChangeBack() {
     const novoValorExibirImagem = !post.exibirImagem;
     setPost({ ...post, exibirImagem: novoValorExibirImagem });
   }

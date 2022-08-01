@@ -1,7 +1,7 @@
-import VolumeOffIcon from "@mui/icons-material/VolumeOff";
+import VolumeOffIcon from '@mui/icons-material/VolumeOff';
 
-import { useContatos } from "../../../hooks/useContatos";
-import style from "./ChatItem.module.scss";
+import { useContatos } from '../../../hooks/useContatos';
+import style from './ChatItem.module.scss';
 
 interface Mensagem {
   id: number;
@@ -47,13 +47,13 @@ export function ChatItem({ contato }: ChatItemProps) {
         </div>
         <div className={style.timeStatus}>
           <time className={style.time}>
-            {new Date(ultimaMensagem.datahora).toLocaleTimeString("pt-br", {
-              hour: "2-digit",
-              minute: "2-digit",
+            {new Date(ultimaMensagem.datahora).toLocaleTimeString('pt-br', {
+              hour: '2-digit',
+              minute: '2-digit',
             })}
           </time>
           {contato.muted && (
-            <VolumeOffIcon sx={{ color: "#667781" }} fontSize="small" />
+            <VolumeOffIcon sx={{ color: '#667781' }} fontSize="small" />
           )}
         </div>
       </div>

@@ -1,3 +1,3 @@
-import { ImovelSinglePage } from "./ImovelSinglePage";
+import { ImovelSinglePage } from './ImovelSinglePage';
 
 export { ImovelSinglePage };

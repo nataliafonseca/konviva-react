@@ -6,17 +6,17 @@ import {
   MenuItem,
   Select,
   TextField,
-} from "@mui/material";
-import { useState } from "react";
+} from '@mui/material';
+import { useState } from 'react';
 
-import { postImovel } from "../../services/imovelApiService";
+import { postImovel } from '../../services/imovelApiService';
 
 export function ImovelCadastroPage() {
-  const [address, setAddress] = useState("");
-  const [image, setImage] = useState("");
-  const [owner, setOwner] = useState("");
-  const [price, setPrice] = useState("");
-  const [type, setType] = useState("Venda");
+  const [address, setAddress] = useState('');
+  const [image, setImage] = useState('');
+  const [owner, setOwner] = useState('');
+  const [price, setPrice] = useState('');
+  const [type, setType] = useState('Venda');
 
   async function cadastrarImovel(event) {
     event.preventDefault();

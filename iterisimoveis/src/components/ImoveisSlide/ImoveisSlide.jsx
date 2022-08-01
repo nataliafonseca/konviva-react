@@ -1,12 +1,12 @@
-import { useEffect, useState } from "react";
-import { useSearchParams } from "react-router-dom";
+import { useEffect, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 
-import { getImoveis } from "../../services/imovelApiService";
+import { getImoveis } from '../../services/imovelApiService';
 
 export function ImoveisSlide() {
   let [query, setQuery] = useSearchParams();
   const [listaImagens, setListaImagens] = useState([]);
-  const [slide, setSlide] = useState(query.get("slide") ?? 0);
+  const [slide, setSlide] = useState(query.get('slide') ?? 0);
 
   useEffect(() => {
     async function fetchData() {
@@ -22,21 +22,21 @@ export function ImoveisSlide() {
   }, []);
 
   useEffect(() => {
-    setSlide(Number(query.get("slide")));
+    setSlide(Number(query.get('slide')));
   }, [query]);
 
   function passarSlide() {
-    if (!query.get("slide")) {
-      setQuery({ slide: "1" });
+    if (!query.get('slide')) {
+      setQuery({ slide: '1' });
       return;
     }
 
-    const slideAtual = Number(query.get("slide"));
+    const slideAtual = Number(query.get('slide'));
 
     if (slideAtual < listaImagens.length - 1) {
       setQuery({ slide: String(slideAtual + 1) });
     } else {
-      setQuery({ slide: "0" });
+      setQuery({ slide: '0' });
     }
   }
 

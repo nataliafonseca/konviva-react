@@ -1,11 +1,11 @@
-import "./SobrePage.css";
+import './SobrePage.css';
 
 export function SobrePage() {
   const logoUrl =
-    "https://www.iteris.com.br/Iteris.Site.Cms.Theme/img/logo.svg";
-  const titulo = "Sobre a Iteris";
+    'https://www.iteris.com.br/Iteris.Site.Cms.Theme/img/logo.svg';
+  const titulo = 'Sobre a Iteris';
   const descricao =
-    "Somos uma empresa de tecnologia. Mas, antes disso, somos uma empresa de gente. De gente que faz acontecer!";
+    'Somos uma empresa de tecnologia. Mas, antes disso, somos uma empresa de gente. De gente que faz acontecer!';
 
   return (
     <div>

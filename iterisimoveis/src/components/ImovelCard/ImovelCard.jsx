@@ -1,4 +1,4 @@
-import "./ImovelCard.css";
+import './ImovelCard.css';
 
 import {
   Card,
@@ -6,12 +6,12 @@ import {
   CardContent,
   CardMedia,
   Typography,
-} from "@mui/material";
+} from '@mui/material';
 
 export function ImovelCard(props) {
-  var formatter = new Intl.NumberFormat("pt-BR", {
-    style: "currency",
-    currency: "BRL",
+  var formatter = new Intl.NumberFormat('pt-BR', {
+    style: 'currency',
+    currency: 'BRL',
     minimumFractionDigits: 0,
     maximumFractionDigits: 0,
   });

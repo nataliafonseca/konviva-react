@@ -1,4 +1,4 @@
-import { ImoveisSlide } from "../../components/ImoveisSlide";
+import { ImoveisSlide } from '../../components/ImoveisSlide';
 
 export function HomePage() {
   return <ImoveisSlide />;

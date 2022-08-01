@@ -1,4 +1,4 @@
-import TarefaModel from "../../models/TarefaModel";
+import TarefaModel from '../../models/TarefaModel';
 
 //função de construção do objeto que vamos compartilhar
 //Usada na inicialização
@@ -20,7 +20,7 @@ export function listaTarefasContextBuilder([
 function adicionar(listaDeTarefas, descricaoTarefa) {
   const novaTarefa = new TarefaModel(
     listaDeTarefas.length + 1,
-    descricaoTarefa
+    descricaoTarefa,
   );
   return [...listaDeTarefas, novaTarefa];
 }

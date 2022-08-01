@@ -1,14 +1,14 @@
-import "./App.css";
+import './App.css';
 
-import { ThemeProvider, createTheme } from "@mui/material";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { ThemeProvider, createTheme } from '@mui/material';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import { HomePage } from "./pages/HomePage";
-import { ImoveisPage } from "./pages/ImoveisPage";
-import { ImovelCadastroPage } from "./pages/ImovelCadastroPage/ImovelCadastroPage";
-import { ImovelSinglePage } from "./pages/ImovelSinglePage/ImovelSinglePage";
-import { SobrePage } from "./pages/SobrePage";
-import MenuPageTemplate from "./pageTemplates/MenuPageTemplate";
+import { HomePage } from './pages/HomePage';
+import { ImoveisPage } from './pages/ImoveisPage';
+import { ImovelCadastroPage } from './pages/ImovelCadastroPage/ImovelCadastroPage';
+import { ImovelSinglePage } from './pages/ImovelSinglePage/ImovelSinglePage';
+import { SobrePage } from './pages/SobrePage';
+import MenuPageTemplate from './pageTemplates/MenuPageTemplate';
 
 const theme = createTheme();
 

@@ -1,6 +1,6 @@
-import axios from "axios";
+import axios from 'axios';
 
-const urlApi = "http://localhost:8080/contato";
+const urlApi = 'http://localhost:8080/contato';
 
 interface Mensagem {
   id: number;

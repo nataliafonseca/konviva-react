@@ -1,2 +1,2 @@
-import Tarefa from "./Tarefa";
+import Tarefa from './Tarefa';
 export default Tarefa;

@@ -1,13 +1,13 @@
-import SearchIcon from "@mui/icons-material/Search";
+import SearchIcon from '@mui/icons-material/Search';
 
-import style from "./Search.module.scss";
+import style from './Search.module.scss';
 
 export function Search() {
   return (
     <div className={style.search}>
       <div className={style.input}>
         <label htmlFor="search">
-          <SearchIcon sx={{ color: "#787878" }} />
+          <SearchIcon sx={{ color: '#787878' }} />
         </label>
         <input
           type="text"

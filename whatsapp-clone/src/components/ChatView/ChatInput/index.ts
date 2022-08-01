@@ -1,2 +1,2 @@
-import { ChatInput } from "./ChatInput";
+import { ChatInput } from './ChatInput';
 export { ChatInput };

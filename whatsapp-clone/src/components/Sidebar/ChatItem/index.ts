@@ -1,2 +1,2 @@
-import { ChatItem } from "./ChatItem";
+import { ChatItem } from './ChatItem';
 export { ChatItem };

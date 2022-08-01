@@ -1,2 +1,2 @@
-import { ImoveisSlide } from "./ImoveisSlide";
+import { ImoveisSlide } from './ImoveisSlide';
 export { ImoveisSlide };

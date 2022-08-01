@@ -1,6 +1,6 @@
-import "./App.css";
+import './App.css';
 
-import BlogPage from "./components/BlogPage";
+import BlogPage from './components/BlogPage';
 
 function App() {
   return (

@@ -1,9 +1,9 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 function Form({ createPost }) {
-  const [title, setTitle] = useState("");
-  const [content, setContent] = useState("");
-  const [imageUrl, setImageUrl] = useState("");
+  const [title, setTitle] = useState('');
+  const [content, setContent] = useState('');
+  const [imageUrl, setImageUrl] = useState('');
 
   function onSubmit(event) {
     event.preventDefault();

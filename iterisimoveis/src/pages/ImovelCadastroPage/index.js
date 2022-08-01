@@ -1,3 +1,3 @@
-import { ImovelCadastroPage } from "./ImovelCadastroPage";
+import { ImovelCadastroPage } from './ImovelCadastroPage';
 
 export { ImovelCadastroPage };

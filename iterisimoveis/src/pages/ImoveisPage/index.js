@@ -1,2 +1,2 @@
-import { ImoveisPage } from "./ImoveisPage";
+import { ImoveisPage } from './ImoveisPage';
 export { ImoveisPage };

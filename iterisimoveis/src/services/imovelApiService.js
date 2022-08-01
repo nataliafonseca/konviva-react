@@ -1,6 +1,6 @@
-import axios from "axios";
+import axios from 'axios';
 
-const urlApi = "http://localhost:8080/imoveis";
+const urlApi = 'http://localhost:8080/imoveis';
 
 export async function getImoveis() {
   const AxiosResponse = await axios.get(urlApi);

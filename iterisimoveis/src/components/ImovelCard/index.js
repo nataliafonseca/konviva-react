@@ -1,3 +1,3 @@
-import { ImovelCard } from "./ImovelCard";
+import { ImovelCard } from './ImovelCard';
 
 export { ImovelCard };

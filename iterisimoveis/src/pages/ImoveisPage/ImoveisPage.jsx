@@ -1,10 +1,10 @@
-import "./ImoveisPage.css";
+import './ImoveisPage.css';
 
-import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-import { ImovelCard } from "../../components/ImovelCard";
-import { getImoveis } from "../../services/imovelApiService";
+import { ImovelCard } from '../../components/ImovelCard';
+import { getImoveis } from '../../services/imovelApiService';
 
 export function ImoveisPage() {
   const navigate = useNavigate();

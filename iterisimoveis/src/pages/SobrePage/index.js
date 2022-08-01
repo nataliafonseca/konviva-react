@@ -1,3 +1,3 @@
-import { SobrePage } from "./SobrePage";
+import { SobrePage } from './SobrePage';
 
 export { SobrePage };

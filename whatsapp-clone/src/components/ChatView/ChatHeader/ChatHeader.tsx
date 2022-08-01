@@ -1,7 +1,7 @@
-import MoreVertIcon from "@mui/icons-material/MoreVert";
-import SearchIcon from "@mui/icons-material/Search";
+import MoreVertIcon from '@mui/icons-material/MoreVert';
+import SearchIcon from '@mui/icons-material/Search';
 
-import style from "./ChatHeader.module.scss";
+import style from './ChatHeader.module.scss';
 
 interface Mensagem {
   id: number;
@@ -34,8 +34,8 @@ export function ChatHeader({ contato }: ChatHeaderProps) {
         </div>
       </div>
       <div className={style.headerIcons}>
-        <SearchIcon sx={{ color: "#787878" }} />
-        <MoreVertIcon sx={{ color: "#787878" }} />
+        <SearchIcon sx={{ color: '#787878' }} />
+        <MoreVertIcon sx={{ color: '#787878' }} />
       </div>
     </div>
   );

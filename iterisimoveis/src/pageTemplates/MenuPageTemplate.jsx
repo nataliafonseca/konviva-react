@@ -4,7 +4,7 @@ import {
   Home as HomeIcon,
   Menu as MenuIcon,
   Store as StoreIcon,
-} from "@mui/icons-material";
+} from '@mui/icons-material';
 import {
   AppBar,
   Divider,
@@ -16,19 +16,19 @@ import {
   ListItemText,
   Toolbar,
   Typography,
-} from "@mui/material";
-import { makeStyles } from "@mui/styles";
-import { useState } from "react";
-import { NavLink } from "react-router-dom";
+} from '@mui/material';
+import { makeStyles } from '@mui/styles';
+import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   list: {
     width: 250,
   },
   drawerHeader: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "flex-end",
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'flex-end',
   },
   main: {
     padding: theme.spacing(3),

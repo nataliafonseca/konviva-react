@@ -1,5 +1,5 @@
-import Image from "../../assets/whatsappweb.png";
-import style from "./HomeView.module.scss";
+import Image from '../../assets/whatsappweb.png';
+import style from './HomeView.module.scss';
 
 export function HomeView() {
   return (

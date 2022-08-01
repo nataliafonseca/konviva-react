@@ -1,2 +1,2 @@
-import { ChatBody } from "./ChatBody";
+import { ChatBody } from './ChatBody';
 export { ChatBody };

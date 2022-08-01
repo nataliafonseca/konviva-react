@@ -1,14 +1,14 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
 function TituloPrincipal(props) {
-  const [titulo, setTitulo] = useState(props.titulo ?? "Olá, mundo!");
+  const [titulo, setTitulo] = useState(props.titulo ?? 'Olá, mundo!');
 
   useEffect(() => {
-    console.log("O titulo mudou!");
+    console.log('O titulo mudou!');
   }, [titulo]);
 
-  function clickCallBack(event) {
-    alert("Obrigado por clicar em mim! :)");
+  function clickCallBack() {
+    alert('Obrigado por clicar em mim! :)');
   }
 
   function inputChangeCallBack(event) {

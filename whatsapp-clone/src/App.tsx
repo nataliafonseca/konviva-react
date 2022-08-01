@@ -1,7 +1,7 @@
-import "./App.scss";
+import './App.scss';
 
-import { MainContainer } from "./components/MainContainer/MainContainer";
-import { ContatosProvider } from "./hooks/useContatos";
+import { MainContainer } from './components/MainContainer/MainContainer';
+import { ContatosProvider } from './hooks/useContatos';
 
 function App() {
   return (

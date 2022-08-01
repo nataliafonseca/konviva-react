@@ -1,14 +1,14 @@
-import "./Tarefa.css";
+import './Tarefa.css';
 
-import useListaTarefas from "../../services/ListaTarefas/useListaTarefas";
+import useListaTarefas from '../../services/ListaTarefas/useListaTarefas';
 
 function Tarefa(props) {
   const { atualizarStatus } = useListaTarefas();
 
-  let classNameTarefa = "tarefa";
+  let classNameTarefa = 'tarefa';
 
   if (props.tarefa.concluida) {
-    classNameTarefa += " concluida";
+    classNameTarefa += ' concluida';
   }
 
   function checkboxOnChange() {

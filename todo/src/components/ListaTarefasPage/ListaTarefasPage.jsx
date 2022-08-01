@@ -1,15 +1,15 @@
-import "./ListaTarefasPage.css";
+import './ListaTarefasPage.css';
 
-import { useState } from "react";
+import { useState } from 'react';
 
-import useListaTarefas from "../../services/ListaTarefas/useListaTarefas";
-import Tarefa from "../Tarefa";
+import useListaTarefas from '../../services/ListaTarefas/useListaTarefas';
+import Tarefa from '../Tarefa';
 
 function ListaTarefasPage() {
   const { listaDeTarefas, adicionarTarefa, limparListaDeTarefas } =
     useListaTarefas();
 
-  const [novaTarefa, setNovaTarefa] = useState("");
+  const [novaTarefa, setNovaTarefa] = useState('');
 
   function inputChangeCallBack(event) {
     setNovaTarefa(event.target.value);
@@ -20,7 +20,7 @@ function ListaTarefasPage() {
     if (novaTarefa.trim()) {
       adicionarTarefa(novaTarefa); // cria a nova tarefa;
     }
-    setNovaTarefa(""); //limpa o valor da tela
+    setNovaTarefa(''); //limpa o valor da tela
   }
 
   return (
@@ -40,7 +40,7 @@ function ListaTarefasPage() {
         </button>
       </form>
       <p>
-        Tarefas pendentes:{" "}
+        Tarefas pendentes:{' '}
         <span>
           {listaDeTarefas.filter((tarefa) => tarefa.concluida === false).length}
         </span>

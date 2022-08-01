@@ -1,7 +1,7 @@
-import { ChatList } from "./ChatList";
-import { Header } from "./Header";
-import { Search } from "./Search";
-import style from "./Sidebar.module.scss";
+import { ChatList } from './ChatList';
+import { Header } from './Header';
+import { Search } from './Search';
+import style from './Sidebar.module.scss';
 
 export function Sidebar() {
   return (
